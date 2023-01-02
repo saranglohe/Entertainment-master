@@ -15,6 +15,8 @@ export default function Header() {
   return (
     <>
       <div className={cls} id="myTopnav">
+        
+        <NavLink to="/login">Login</NavLink>
         <NavLink to="/search">Search</NavLink>
         <NavLink to="/tv">TV Shows</NavLink>
         <NavLink to="/movie">Movie</NavLink>

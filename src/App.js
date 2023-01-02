@@ -6,6 +6,7 @@ import TVSeries from "./Components/Pages/TVSeries";
 import Search from "./Components/Pages/Search";
 import NotAvailable from "./Components/Pages/NotAvailable";
 import React from "react";
+import Login from "./Components/Pages/subPages/Login";
 
 // const Trending = React.lazy(() => import("./Components/Trending"));
 
@@ -20,6 +21,7 @@ function App() {
               <Route path="movie" element={<Movie />} />
               <Route path="tv" element={<TVSeries />} />
               <Route path="search" element={<Search />} />
+              <Route path="Login" element={<Login />} />
               <Route path="*" element={<NotAvailable />} />
             </Route>
           </Route>

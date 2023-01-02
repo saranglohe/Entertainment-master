@@ -1,0 +1,10 @@
+.login_cred{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Submit_button{
+    background-color: aqua;
+}
